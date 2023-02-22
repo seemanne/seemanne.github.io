@@ -22,8 +22,9 @@ title: Some-code ML
 email: github@emanuelseemann.ch
 description: >- # this means to ignore newlines until "baseurl:"
   The internet's least frequented blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /docs/
+domain: "seemanne.github.io" # the subpath of your site, e.g. /blog
+url: "https://seemanne.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  seemanne
 
 # Build settings

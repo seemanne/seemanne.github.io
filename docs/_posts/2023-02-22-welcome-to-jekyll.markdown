@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hidden in plain sight - encrypting keys with GPT"
 date:   2023-02-22 22:08:33 +0100
 categories: jekyll update
 ---
