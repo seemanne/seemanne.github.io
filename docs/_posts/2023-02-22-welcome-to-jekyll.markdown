@@ -1,10 +1,26 @@
 ---
 layout: post
-title:  "Hidden in plain sight - encrypting keys with GPT"
+title:  "Hidden in plain sight - encrypting messages with GPT"
 date:   2023-02-22 22:08:33 +0100
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+# Introduction
+
+Last week someone shared the repo [Infinite-Storage-Glitch](https://github.com/DvorakDwarf/Infinite-Storage-Glitch) to hackernews. For the uninitiated, the main idea is to use the fact that Youtube allows uploads of arbitrary lenght to get free unlimited cloud storage by encoding files to black-and-white videos. There are some intricacies surrounding the YouTube compression algorithm that need to be taken care of, but apart from that it is a good proof-of-concept.
+
+In the ensuing discussion around exotic data storage, a user going by of phh [suggested the following](https://news.ycombinator.com/item?id=34866808#34867655)
+
+> You could use a reproducible LM (for instance using Bellard's NNCP as basis), and encode one bit in one word by taking the {first, second} most probable next word.  
+
+Now this suggestion is reasonably infeasible, as we will see, but nevertheless 
+![image tooltip here](/images/security.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+# Theory
+
+# The code
+
+# Conclusions
 
 Jekyll requires blog post files to be named according to the following format:
 

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Some-code ML
+title: no-stack machinelearning
 email: github@emanuelseemann.ch
 description: >- # this means to ignore newlines until "baseurl:"
   The internet's least frequented blog.
@@ -28,9 +28,8 @@ url: "https://seemanne.github.io" # the base hostname & protocol for your site, 
 github_username:  seemanne
 
 # Build settings
-remote_theme: pages-themes/tactile@v0.2.0
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
